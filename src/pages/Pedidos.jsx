@@ -55,6 +55,7 @@ export default function Pedidos() {
       <nav className="navbar navbar-expand bg-white border-bottom">
         <div className="container">
           <Link className="navbar-brand fw-bold text-primary" to="/pedidos">ShopPanel</Link>
+          <Link className="nav-link me-auto" to="/productos">Productos</Link>
           <div className="d-flex align-items-center gap-3">
             <span className="small text-secondary d-none d-sm-inline">{user?.email}</span>
             <LogoutButton />
