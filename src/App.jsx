@@ -1,24 +1,20 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import LogoutButton from './components/LogoutButton.jsx';
+import { BrowserRouter, Navigate, Outlet, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
-import { AuthProvider, useAuth } from './context/AuthContext.jsx';
+import { AuthProvider } from './context/AuthContext.jsx';
+import DetalleProducto from './pages/DetalleProducto.jsx';
 import Login from './pages/Login.jsx';
 import NotFound from './pages/NotFound.jsx';
 import Pedidos from './pages/Pedidos.jsx';
+import Productos from './pages/Productos.jsx';
 
-// Punto de entrada temporal para probar el acceso antes de integrar el catálogo.
-function PanelDeSesion() {
-  const { user, loading } = useAuth();
-
-  if (loading) return <p className="container py-4" role="status">Comprobando sesión…</p>;
-  if (!user) return <Navigate to="/login" replace />;
-
+// Diseño de las páginas de catálogo: barra de navegación + contenido.
+function LayoutConNavbar() {
   return (
-    <main className="container py-4">
-      <h1>ShopPanel</h1>
-      <p>Sesión activa: {user.email}</p>
-      <LogoutButton />
-    </main>
+    <>
+      <Navbar />
+      <Outlet />
+    </>
   );
 }
 
@@ -27,11 +23,14 @@ export default function App() {
     <BrowserRouter>
       <AuthProvider>
         <Routes>
-          <Route path="/" element={<Navigate to="/pedidos" replace />} />
+          <Route path="/" element={<Navigate to="/productos" replace />} />
           <Route path="/login" element={<Login />} />
           <Route element={<ProtectedRoute />}>
             <Route path="/pedidos" element={<Pedidos />} />
-            <Route path="/productos" element={<PanelDeSesion />} />
+            <Route element={<LayoutConNavbar />}>
+              <Route path="/productos" element={<Productos />} />
+              <Route path="/productos/:id" element={<DetalleProducto />} />
+            </Route>
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
