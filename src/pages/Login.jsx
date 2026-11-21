@@ -42,7 +42,7 @@ export default function Login() {
   }
 
   if (loading) return <p className="container py-4" role="status">Comprobando sesión…</p>;
-  if (session) return <Navigate to="/pedidos" replace />;
+  if (session) return <Navigate to="/productos" replace />;
 
   return (
     <main className="bg-body-tertiary min-vh-100 d-flex align-items-center py-5">
