@@ -8,7 +8,6 @@ import NotFound from './pages/NotFound.jsx';
 import Pedidos from './pages/Pedidos.jsx';
 import Productos from './pages/Productos.jsx';
 
-// Diseño de las páginas de catálogo: barra de navegación + contenido.
 function LayoutConNavbar() {
   return (
     <>
