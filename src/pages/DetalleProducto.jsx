@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
+import { crearPedido } from '../services/orderService.js';
 import { getProductById } from '../services/productService.js';
 
 // Ruta dinámica /productos/:id
@@ -90,8 +91,67 @@ export default function DetalleProducto() {
           <p className="fs-3 fw-bold">${product.price.toFixed(2)}</p>
           <p className="mb-1">Calificación: {product.rating}</p>
           <p>Stock disponible: {product.stock}</p>
+          <FormularioPedido key={product.id} producto={product} />
         </div>
       </div>
     </main>
+  );
+}
+
+function FormularioPedido({ producto }) {
+  const navigate = useNavigate();
+  const [cliente, setCliente] = useState('');
+  const [cantidad, setCantidad] = useState('1');
+  const [error, setError] = useState('');
+
+  function registrar(evento) {
+    evento.preventDefault();
+    setError('');
+    try {
+      crearPedido({ cliente, producto, cantidad });
+      navigate('/pedidos', { state: { pedidoRegistrado: true } });
+    } catch (fallo) {
+      setError(fallo.message);
+    }
+  }
+
+  return (
+    <section className="card shadow-sm mt-4" aria-labelledby="titulo-nuevo-pedido">
+      <div className="card-body">
+        <h2 id="titulo-nuevo-pedido" className="h5 mb-3">Nuevo pedido</h2>
+        {error && <p className="alert alert-danger" role="alert">{error}</p>}
+        <form className="row g-3 align-items-end" onSubmit={registrar} noValidate>
+          <div className="col-sm-8">
+            <label className="form-label" htmlFor="cliente-pedido">Cliente</label>
+            <input
+              className="form-control"
+              id="cliente-pedido"
+              maxLength={80}
+              placeholder="Nombre del cliente"
+              required
+              value={cliente}
+              onChange={(evento) => setCliente(evento.target.value)}
+            />
+          </div>
+          <div className="col-sm-4">
+            <label className="form-label" htmlFor="cantidad-pedido">Cantidad</label>
+            <input
+              className="form-control"
+              id="cantidad-pedido"
+              type="number"
+              min="1"
+              max="99"
+              step="1"
+              required
+              value={cantidad}
+              onChange={(evento) => setCantidad(evento.target.value)}
+            />
+          </div>
+          <div className="col-12">
+            <button className="btn btn-primary" type="submit">Registrar pedido</button>
+          </div>
+        </form>
+      </div>
+    </section>
   );
 }
