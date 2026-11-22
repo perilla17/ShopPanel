@@ -6,6 +6,8 @@ Panel de pedidos de productos para la actividad entregable de la Unidad II de In
 
 ShopPanel usa Supabase Auth para iniciar y cerrar sesión. Al ingresar, el usuario llega al catálogo. El listado y el detalle consultan productos de DummyJSON mediante solicitudes GET con `fetch`.
 
+ShopPanel presenta en español los nombres, las descripciones y las categorías del catálogo de muestra. La búsqueda admite términos en español y reconoce los nombres originales y las marcas. Los precios y las calificaciones usan el formato de Colombia. Los productos nuevos de DummyJSON aparecen con su texto original hasta que se incorpora su traducción.
+
 Desde el detalle se registra un pedido simulado con el nombre del cliente y una cantidad. El pedido conserva el identificador, el nombre, la imagen y el precio del producto seleccionado. En **Pedidos** se puede consultar la lista, filtrarla y cambiar el estado a Pendiente, Confirmado, Enviado o Cancelado. Los pedidos y sus cambios se conservan con `localStorage` en el navegador.
 
 | Ruta | Vista |
@@ -46,7 +48,7 @@ Las rutas protegidas redirigen a `/login` cuando no hay una sesión activa.
 
 1. Intenta ingresar con los campos vacíos y luego con una contraseña incorrecta. El formulario debe mostrar un mensaje en cada caso.
 2. Ingresa con el usuario de prueba. Debes llegar a `/productos`, ver el catálogo y conservar la sesión al recargar.
-3. Pulsa **Ver detalle** en una tarjeta. En **Nuevo pedido**, escribe el nombre del cliente, elige una cantidad de 1 a 99 y pulsa **Registrar pedido**.
+3. Busca un producto en español y pulsa **Ver detalle** en una tarjeta. En **Nuevo pedido**, escribe el nombre del cliente, elige una cantidad de 1 a 99 y pulsa **Registrar pedido**.
 4. Comprueba en `/pedidos` que el producto aparece con el estado **Pendiente**. Cámbialo a **Confirmado** y recarga para verificar que conserva el estado.
 5. Pulsa **Cerrar sesión**. Debes volver a `/login`. Abre `/pedidos` directamente y comprueba que el sistema te lleva otra vez al login.
 6. Ejecuta `npm run build` para comprobar la compilación de producción.
@@ -59,3 +61,4 @@ Las rutas protegidas redirigen a `/login` cuando no hay una sesión activa.
 | `src/components` | Tarjetas de producto, navegación, protección de rutas y botón de cierre de sesión. |
 | `src/services` | Autenticación con Supabase, consultas a DummyJSON y persistencia de pedidos. |
 | `src/context` | Contexto global de la sesión, accesible con `useAuth()`. |
+| `src/data` | Traducciones al español de los productos de muestra de DummyJSON. |
