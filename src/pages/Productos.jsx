@@ -1,36 +1,44 @@
 import { useEffect, useState } from 'react';
 import ProductCard from '../components/ProductCard.jsx';
-import { getProducts, searchProducts } from '../services/productService.js';
+import { filtrarProductos, getProducts } from '../services/productService.js';
+
+const PRODUCTOS_INICIALES = 30;
 
 export default function Productos() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [term, setTerm] = useState('');
-
-  async function cargarProductos(busqueda = '') {
-    setLoading(true);
-    setError('');
-    try {
-      const termino = busqueda.trim();
-      const datos = termino ? await searchProducts(termino) : await getProducts();
-      setProducts(datos);
-    } catch (err) {
-      setError(err.message);
-      setProducts([]);
-    } finally {
-      setLoading(false);
-    }
-  }
+  const [consulta, setConsulta] = useState('');
+  const [intento, setIntento] = useState(0);
 
   useEffect(() => {
-    cargarProductos();
-  }, []);
+    const controlador = new AbortController();
+    getProducts(controlador.signal)
+      .then((datos) => {
+        if (!controlador.signal.aborted) setProducts(datos);
+      })
+      .catch((fallo) => {
+        if (!controlador.signal.aborted) setError(fallo.message);
+      })
+      .finally(() => {
+        if (!controlador.signal.aborted) setLoading(false);
+      });
+    return () => controlador.abort();
+  }, [intento]);
+
+  function reintentar() {
+    setError('');
+    setLoading(true);
+    setIntento((actual) => actual + 1);
+  }
 
   function buscar(evento) {
     evento.preventDefault();
-    cargarProductos(term);
+    setConsulta(term.trim());
   }
+
+  const visibles = consulta ? filtrarProductos(products, consulta) : products.slice(0, PRODUCTOS_INICIALES);
 
   return (
     <main className="container py-4">
@@ -45,7 +53,7 @@ export default function Productos() {
             value={term}
             onChange={(evento) => setTerm(evento.target.value)}
           />
-          <button className="btn btn-outline-primary" type="submit">Buscar</button>
+          <button className="btn btn-outline-primary" type="submit" disabled={loading}>Buscar</button>
         </form>
       </div>
 
@@ -59,18 +67,18 @@ export default function Productos() {
       {error && !loading && (
         <div className="alert alert-danger d-flex justify-content-between align-items-center" role="alert">
           <span>{error}</span>
-          <button className="btn btn-sm btn-outline-danger" type="button" onClick={() => cargarProductos(term)}>
+          <button className="btn btn-sm btn-outline-danger" type="button" onClick={reintentar}>
             Reintentar
           </button>
         </div>
       )}
 
-      {!loading && !error && products.length === 0 && (
+      {!loading && !error && visibles.length === 0 && (
         <p className="alert alert-info">No se encontraron productos.</p>
       )}
 
       <div className="row g-4">
-        {products.map((product) => (
+        {visibles.map((product) => (
           <div className="col-12 col-sm-6 col-lg-4 col-xl-3" key={product.id}>
             <ProductCard product={product} />
           </div>

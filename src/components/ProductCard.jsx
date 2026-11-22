@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { formatearPrecio } from '../utils/formatos.js';
 
 // Tarjeta reutilizable: recibe el producto mediante props.
 export default function ProductCard({ product }) {
@@ -9,6 +10,7 @@ export default function ProductCard({ product }) {
       <img
         src={thumbnail}
         alt={title}
+        loading="lazy"
         className="card-img-top p-3"
         style={{ height: 200, objectFit: 'contain' }}
       />
@@ -17,7 +19,7 @@ export default function ProductCard({ product }) {
         <p className="card-text text-muted small flex-grow-1">
           {description.length > 90 ? `${description.slice(0, 90)}…` : description}
         </p>
-        <p className="fw-bold fs-5 mb-3">${price.toFixed(2)}</p>
+        <p className="fw-bold fs-5 mb-3">{formatearPrecio(price)}</p>
         <Link to={`/productos/${id}`} className="btn btn-outline-primary btn-sm">
           Ver detalle
         </Link>

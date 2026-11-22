@@ -1,0 +1,972 @@
+{
+  "1": {
+    "original": "Essence Mascara Lash Princess",
+    "titulo": "Pestañina Lash Princess de Essence",
+    "descripcion": "Pestañina de larga duración que da volumen y alarga las pestañas. Su fórmula no se prueba en animales."
+  },
+  "2": {
+    "original": "Eyeshadow Palette with Mirror",
+    "titulo": "Paleta de sombras con espejo",
+    "descripcion": "Paleta con tonos variados para crear distintos estilos de maquillaje de ojos. Trae un espejo incorporado para retocarte fuera de casa."
+  },
+  "3": {
+    "original": "Powder Canister",
+    "titulo": "Polvo fijador en tarro",
+    "descripcion": "Polvo fino, ligero y translúcido que fija el maquillaje y controla el brillo. Deja un acabado uniforme y mate."
+  },
+  "4": {
+    "original": "Red Lipstick",
+    "titulo": "Labial rojo",
+    "descripcion": "Labial rojo de fórmula cremosa y pigmentada. Deja un color intenso y duradero."
+  },
+  "5": {
+    "original": "Red Nail Polish",
+    "titulo": "Esmalte de uñas rojo",
+    "descripcion": "Esmalte de color rojo intenso y brillante. Su fórmula de secado rápido permite lograr un acabado de salón en casa."
+  },
+  "6": {
+    "original": "Calvin Klein CK One",
+    "titulo": "Fragancia CK One de Calvin Klein",
+    "descripcion": "Fragancia unisex clásica, conocida por su aroma fresco y limpio. Es versátil y adecuada para el uso diario."
+  },
+  "7": {
+    "original": "Chanel Coco Noir Eau De",
+    "titulo": "Fragancia Coco Noir de Chanel",
+    "descripcion": "Fragancia elegante y misteriosa con notas de toronja, rosa y sándalo. Ideal para ocasiones nocturnas."
+  },
+  "8": {
+    "original": "Dior J'adore",
+    "titulo": "Fragancia J'adore de Dior",
+    "descripcion": "Fragancia floral sofisticada con una mezcla de ylang-ylang, rosa y jazmín."
+  },
+  "9": {
+    "original": "Dolce Shine Eau de",
+    "titulo": "Fragancia Dolce Shine de Dolce & Gabbana",
+    "descripcion": "Fragancia frutal, alegre y juvenil con notas de mango, jazmín y maderas claras."
+  },
+  "10": {
+    "original": "Gucci Bloom Eau de",
+    "titulo": "Fragancia Gucci Bloom",
+    "descripcion": "Fragancia floral moderna y romántica con notas de nardo, jazmín y enredadera de Rangún."
+  },
+  "11": {
+    "original": "Annibale Colombo Bed",
+    "titulo": "Cama Annibale Colombo",
+    "descripcion": "Estructura de cama elegante elaborada con materiales de alta calidad para una habitación cómoda y con estilo."
+  },
+  "12": {
+    "original": "Annibale Colombo Sofa",
+    "titulo": "Sofá Annibale Colombo",
+    "descripcion": "Sofá cómodo para la sala, con un diseño sofisticado y tapizado de alta calidad."
+  },
+  "13": {
+    "original": "Bedside Table African Cherry",
+    "titulo": "Mesa de noche de cerezo africano",
+    "descripcion": "Mesa de noche de cerezo africano que aporta un toque elegante y ofrece espacio de almacenamiento en la habitación."
+  },
+  "14": {
+    "original": "Knoll Saarinen Executive Conference Chair",
+    "titulo": "Silla ejecutiva para conferencias Saarinen de Knoll",
+    "descripcion": "Silla moderna y ergonómica de diseño atemporal, adecuada para la oficina o la sala de reuniones."
+  },
+  "15": {
+    "original": "Wooden Bathroom Sink With Mirror",
+    "titulo": "Lavamanos con mesón de madera y espejo",
+    "descripcion": "Conjunto para el baño con mesón de madera para el lavamanos y un espejo a juego."
+  },
+  "16": {
+    "original": "Apple",
+    "titulo": "Manzana",
+    "descripcion": "Manzanas frescas y crujientes para comer entre comidas o incorporar en distintas recetas."
+  },
+  "17": {
+    "original": "Beef Steak",
+    "titulo": "Bistec de res",
+    "descripcion": "Bistec de res de alta calidad, ideal para asar a la parrilla o cocinar al término que prefieras."
+  },
+  "18": {
+    "original": "Cat Food",
+    "titulo": "Alimento para gatos",
+    "descripcion": "Alimento nutritivo, formulado para cubrir las necesidades alimenticias de los gatos."
+  },
+  "19": {
+    "original": "Chicken Meat",
+    "titulo": "Carne de pollo",
+    "descripcion": "Carne de pollo fresca y tierna, adecuada para distintas preparaciones."
+  },
+  "20": {
+    "original": "Cooking Oil",
+    "titulo": "Aceite de cocina",
+    "descripcion": "Aceite versátil para freír, saltear y usar en diversas preparaciones."
+  },
+  "21": {
+    "original": "Cucumber",
+    "titulo": "Pepino",
+    "descripcion": "Pepinos crujientes e hidratantes, ideales para ensaladas, refrigerios o como acompañamiento fresco."
+  },
+  "22": {
+    "original": "Dog Food",
+    "titulo": "Alimento para perros",
+    "descripcion": "Alimento formulado para proporcionar nutrientes esenciales a los perros."
+  },
+  "23": {
+    "original": "Eggs",
+    "titulo": "Huevos",
+    "descripcion": "Huevos frescos para preparar desayunos, cocinar u hornear."
+  },
+  "24": {
+    "original": "Fish Steak",
+    "titulo": "Filete de pescado",
+    "descripcion": "Filete de pescado de calidad, adecuado para asar, hornear o sellar en sartén."
+  },
+  "25": {
+    "original": "Green Bell Pepper",
+    "titulo": "Pimentón verde",
+    "descripcion": "Pimentón verde fresco que aporta color y sabor a tus platos."
+  },
+  "26": {
+    "original": "Green Chili Pepper",
+    "titulo": "Ají verde",
+    "descripcion": "Ají verde picante para dar un toque de intensidad a tus recetas."
+  },
+  "27": {
+    "original": "Honey Jar",
+    "titulo": "Miel en frasco",
+    "descripcion": "Miel pura y natural en un frasco práctico. Úsala para endulzar bebidas o añadir un toque dulce a tus platos."
+  },
+  "28": {
+    "original": "Ice Cream",
+    "titulo": "Helado",
+    "descripcion": "Helado cremoso y delicioso, disponible en varios sabores."
+  },
+  "29": {
+    "original": "Juice",
+    "titulo": "Jugo de frutas",
+    "descripcion": "Jugo de frutas refrescante y rico en vitaminas, ideal para hidratarte."
+  },
+  "30": {
+    "original": "Kiwi",
+    "titulo": "Kiwi",
+    "descripcion": "Kiwi rico en nutrientes, ideal para comer como refrigerio o añadir un toque tropical a tus platos."
+  },
+  "31": {
+    "original": "Lemon",
+    "titulo": "Limón",
+    "descripcion": "Limones de sabor ácido e intenso para cocinar, hornear o preparar bebidas refrescantes."
+  },
+  "32": {
+    "original": "Milk",
+    "titulo": "Leche",
+    "descripcion": "Leche fresca y nutritiva para el consumo diario y distintas recetas."
+  },
+  "33": {
+    "original": "Mulberry",
+    "titulo": "Mora de morera",
+    "descripcion": "Moras de morera dulces y jugosas, ideales para comer solas o añadir a postres y cereales."
+  },
+  "34": {
+    "original": "Nescafe Coffee",
+    "titulo": "Café Nescafé",
+    "descripcion": "Café de calidad disponible en varias mezclas, para preparar una taza de sabor intenso."
+  },
+  "35": {
+    "original": "Potatoes",
+    "titulo": "Papas",
+    "descripcion": "Papas ricas en almidón para asar, hacer puré o servir como acompañamiento."
+  },
+  "36": {
+    "original": "Protein Powder",
+    "titulo": "Proteína en polvo",
+    "descripcion": "Proteína en polvo rica en nutrientes para complementar tu alimentación con proteínas esenciales."
+  },
+  "37": {
+    "original": "Red Onions",
+    "titulo": "Cebollas moradas",
+    "descripcion": "Cebollas moradas aromáticas y de sabor intenso que realzan tus preparaciones saladas."
+  },
+  "38": {
+    "original": "Rice",
+    "titulo": "Arroz",
+    "descripcion": "Arroz de alta calidad, un ingrediente versátil que sirve de base para platos de distintas cocinas."
+  },
+  "39": {
+    "original": "Soft Drinks",
+    "titulo": "Gaseosas",
+    "descripcion": "Gaseosas refrescantes surtidas en distintos sabores."
+  },
+  "40": {
+    "original": "Strawberry",
+    "titulo": "Fresa",
+    "descripcion": "Fresas dulces y jugosas para comer solas, preparar postres o agregar a batidos."
+  },
+  "41": {
+    "original": "Tissue Paper Box",
+    "titulo": "Caja de pañuelos desechables",
+    "descripcion": "Caja práctica con pañuelos suaves y absorbentes para el uso diario."
+  },
+  "42": {
+    "original": "Water",
+    "titulo": "Agua embotellada",
+    "descripcion": "Agua embotellada pura y refrescante, ideal para hidratarte durante el día."
+  },
+  "43": {
+    "original": "Decoration Swing",
+    "titulo": "Columpio decorativo",
+    "descripcion": "Columpio con detalles elaborados que aporta un toque elegante y original a la decoración del hogar."
+  },
+  "44": {
+    "original": "Family Tree Photo Frame",
+    "titulo": "Portarretratos de árbol genealógico",
+    "descripcion": "Portarretratos con varios espacios para fotos que te permite reunir y mostrar los recuerdos de tu familia."
+  },
+  "45": {
+    "original": "House Showpiece Plant",
+    "titulo": "Planta artificial decorativa",
+    "descripcion": "Planta artificial que aporta un toque de naturaleza al hogar sin requerir mantenimiento."
+  },
+  "46": {
+    "original": "Plant Pot",
+    "titulo": "Matera",
+    "descripcion": "Matera de diseño moderno para exhibir tus plantas en interiores o al aire libre."
+  },
+  "47": {
+    "original": "Table Lamp",
+    "titulo": "Lámpara de mesa",
+    "descripcion": "Lámpara de diseño moderno que decora e ilumina. Sirve para crear luz ambiental o iluminar un espacio de trabajo."
+  },
+  "48": {
+    "original": "Bamboo Spatula",
+    "titulo": "Espátula de bambú",
+    "descripcion": "Espátula de cocina fabricada en bambú ecológico. Úsala para voltear, revolver y servir alimentos."
+  },
+  "49": {
+    "original": "Black Aluminium Cup",
+    "titulo": "Vaso negro de aluminio",
+    "descripcion": "Vaso de aluminio resistente, con acabado negro y un diseño moderno. Sirve para bebidas frías o calientes."
+  },
+  "50": {
+    "original": "Black Whisk",
+    "titulo": "Batidor de mano negro",
+    "descripcion": "Utensilio para batir y mezclar ingredientes, con mango ergonómico y diseño estilizado."
+  },
+  "51": {
+    "original": "Boxed Blender",
+    "titulo": "Licuadora en caja",
+    "descripcion": "Licuadora compacta y potente con varias funciones, ideal para preparar batidos y otras recetas."
+  },
+  "52": {
+    "original": "Carbon Steel Wok",
+    "titulo": "Wok de acero al carbono",
+    "descripcion": "Wok de construcción resistente que distribuye el calor de manera uniforme. Sirve para saltear y freír en abundante aceite."
+  },
+  "53": {
+    "original": "Chopping Board",
+    "titulo": "Tabla de picar",
+    "descripcion": "Tabla de material resistente que ofrece una superficie segura e higiénica para cortar y picar alimentos."
+  },
+  "54": {
+    "original": "Citrus Squeezer Yellow",
+    "titulo": "Exprimidor de cítricos amarillo",
+    "descripcion": "Exprimidor para extraer el jugo de frutas cítricas. Su color amarillo aporta un toque alegre a la cocina."
+  },
+  "55": {
+    "original": "Egg Slicer",
+    "titulo": "Cortador de huevos",
+    "descripcion": "Utensilio para cortar huevos cocidos en rodajas uniformes. Ideal para ensaladas, sándwiches y otros platos."
+  },
+  "56": {
+    "original": "Electric Stove",
+    "titulo": "Estufa eléctrica",
+    "descripcion": "Estufa portátil y eficiente, adecuada para cocinas pequeñas o como superficie adicional de cocción."
+  },
+  "57": {
+    "original": "Fine Mesh Strainer",
+    "titulo": "Colador de malla fina",
+    "descripcion": "Colador de malla fina para filtrar líquidos y tamizar ingredientes secos al cocinar u hornear."
+  },
+  "58": {
+    "original": "Fork",
+    "titulo": "Tenedor",
+    "descripcion": "Tenedor clásico, resistente y ergonómico para comer y servir alimentos a diario."
+  },
+  "59": {
+    "original": "Glass",
+    "titulo": "Vaso transparente",
+    "descripcion": "Vaso versátil de diseño elegante. Su transparencia permite apreciar el color y la textura de tus bebidas."
+  },
+  "60": {
+    "original": "Grater Black",
+    "titulo": "Rallador negro",
+    "descripcion": "Rallador de diseño estilizado y cuchillas afiladas para rallar queso, verduras y otros alimentos con facilidad."
+  },
+  "61": {
+    "original": "Hand Blender",
+    "titulo": "Licuadora de mano",
+    "descripcion": "Licuadora de mano compacta y de motor potente. Sirve para licuar, mezclar y preparar purés."
+  },
+  "62": {
+    "original": "Ice Cube Tray",
+    "titulo": "Cubeta para hielo",
+    "descripcion": "Cubeta para preparar cubos de hielo de distintas formas. Mantiene tus bebidas frías y les da un toque divertido."
+  },
+  "63": {
+    "original": "Kitchen Sieve",
+    "titulo": "Tamiz de cocina",
+    "descripcion": "Tamiz de malla fina para tamizar ingredientes secos y colar líquidos al cocinar u hornear."
+  },
+  "64": {
+    "original": "Knife",
+    "titulo": "Cuchillo de cocina",
+    "descripcion": "Cuchillo de hoja afilada y mango ergonómico para picar, rebanar y cortar alimentos en cubos."
+  },
+  "65": {
+    "original": "Lunch Box",
+    "titulo": "Lonchera",
+    "descripcion": "Recipiente portátil con compartimentos para empacar y llevar distintos alimentos."
+  },
+  "66": {
+    "original": "Microwave Oven",
+    "titulo": "Horno microondas",
+    "descripcion": "Electrodoméstico compacto para cocinar, recalentar y descongelar alimentos con rapidez."
+  },
+  "67": {
+    "original": "Mug Tree Stand",
+    "titulo": "Soporte para pocillos",
+    "descripcion": "Soporte de sobremesa que ahorra espacio y mantiene los pocillos organizados y al alcance."
+  },
+  "68": {
+    "original": "Pan",
+    "titulo": "Sartén",
+    "descripcion": "Sartén antiadherente para freír, saltear y preparar distintos platos. El recubrimiento facilita retirar los alimentos y limpiar."
+  },
+  "69": {
+    "original": "Plate",
+    "titulo": "Plato",
+    "descripcion": "Plato resistente de diseño clásico para servir comidas a diario o en ocasiones especiales."
+  },
+  "70": {
+    "original": "Red Tongs",
+    "titulo": "Pinzas rojas de cocina",
+    "descripcion": "Pinzas de color rojo para manipular alimentos al cocinar y servir."
+  },
+  "71": {
+    "original": "Silver Pot With Glass Cap",
+    "titulo": "Olla plateada con tapa de vidrio",
+    "descripcion": "Olla para hervir y cocinar a fuego lento. La tapa de vidrio permite ver cómo avanza la cocción."
+  },
+  "72": {
+    "original": "Slotted Turner",
+    "titulo": "Espátula ranurada",
+    "descripcion": "Espátula para voltear alimentos. Las ranuras permiten escurrir el exceso de líquido al freír o saltear."
+  },
+  "73": {
+    "original": "Spice Rack",
+    "titulo": "Organizador de especias",
+    "descripcion": "Soporte para ordenar y tener a mano las especias y los condimentos."
+  },
+  "74": {
+    "original": "Spoon",
+    "titulo": "Cuchara",
+    "descripcion": "Utensilio resistente de diseño ergonómico para revolver, servir y probar alimentos."
+  },
+  "75": {
+    "original": "Tray",
+    "titulo": "Bandeja",
+    "descripcion": "Bandeja funcional y decorativa para servir pasabocas, entradas o bebidas."
+  },
+  "76": {
+    "original": "Wooden Rolling Pin",
+    "titulo": "Rodillo de madera",
+    "descripcion": "Rodillo para estirar masas de repostería. Su superficie lisa y sus mangos firmes ayudan a lograr un grosor uniforme."
+  },
+  "77": {
+    "original": "Yellow Peeler",
+    "titulo": "Pelador amarillo",
+    "descripcion": "Pelador de color amarillo brillante para quitar fácilmente la cáscara de frutas y verduras."
+  },
+  "78": {
+    "original": "Apple MacBook Pro 14 Inch Space Grey",
+    "titulo": "Apple MacBook Pro de 14 pulgadas en gris espacial",
+    "descripcion": "Portátil de 14 pulgadas con chip Apple M1 Pro y pantalla Retina."
+  },
+  "79": {
+    "original": "Asus Zenbook Pro Dual Screen Laptop",
+    "titulo": "Portátil Asus Zenbook Pro de doble pantalla",
+    "descripcion": "Equipo de alto rendimiento con dos pantallas que facilitan el trabajo de profesionales creativos."
+  },
+  "80": {
+    "original": "Huawei Matebook X Pro",
+    "titulo": "Huawei MateBook X Pro",
+    "descripcion": "Portátil delgado y elegante con pantalla táctil de alta resolución, pensado para usar fuera de casa o de la oficina."
+  },
+  "81": {
+    "original": "Lenovo Yoga 920",
+    "titulo": "Lenovo Yoga 920",
+    "descripcion": "Portátil convertible 2 en 1 con bisagra flexible para usarlo también como tableta."
+  },
+  "82": {
+    "original": "New DELL XPS 13 9300 Laptop",
+    "titulo": "Portátil Dell XPS 13 9300",
+    "descripcion": "Equipo compacto de alto rendimiento con pantalla InfinityEdge de bordes casi imperceptibles."
+  },
+  "83": {
+    "original": "Blue & Black Check Shirt",
+    "titulo": "Camisa de cuadros azules y negros",
+    "descripcion": "Camisa cómoda para hombre, con un estampado clásico de cuadros y tela de alta calidad. Adecuada para ocasiones informales y semiformales."
+  },
+  "84": {
+    "original": "Gigabyte Aorus Men Tshirt",
+    "titulo": "Camiseta Gigabyte Aorus para hombre",
+    "descripcion": "Camiseta informal para aficionados a los videojuegos, con el logo de Aorus."
+  },
+  "85": {
+    "original": "Man Plaid Shirt",
+    "titulo": "Camisa de cuadros clásicos para hombre",
+    "descripcion": "Camisa de corte cómodo y estilo informal con un estampado clásico de cuadros."
+  },
+  "86": {
+    "original": "Man Short Sleeve Shirt",
+    "titulo": "Camisa de manga corta para hombre",
+    "descripcion": "Camisa fresca de corte cómodo y manga corta, adecuada para días calurosos."
+  },
+  "87": {
+    "original": "Men Check Shirt",
+    "titulo": "Camisa a cuadros para hombre",
+    "descripcion": "Camisa versátil con un estampado de cuadros que se adapta a distintas ocasiones."
+  },
+  "88": {
+    "original": "Nike Air Jordan 1 Red And Black",
+    "titulo": "Nike Air Jordan 1 rojos y negros",
+    "descripcion": "Tenis emblemáticos de baloncesto con diseño en rojo y negro y características de alto rendimiento."
+  },
+  "89": {
+    "original": "Nike Baseball Cleats",
+    "titulo": "Tenis Nike de béisbol con tacos",
+    "descripcion": "Calzado diseñado para dar tracción, estabilidad y soporte en el campo durante partidos y entrenamientos."
+  },
+  "90": {
+    "original": "Puma Future Rider Trainers",
+    "titulo": "Tenis Puma Future Rider",
+    "descripcion": "Tenis de estilo retro y ajuste cómodo para uso diario e informal."
+  },
+  "91": {
+    "original": "Sports Sneakers Off White & Red",
+    "titulo": "Tenis deportivos en blanco hueso y rojo",
+    "descripcion": "Tenis que combinan un diseño funcional con colores contrastantes para uso deportivo."
+  },
+  "92": {
+    "original": "Sports Sneakers Off White Red",
+    "titulo": "Tenis en blanco hueso y rojo, variante de diseño",
+    "descripcion": "Variante cómoda de los tenis en blanco hueso y rojo, con un diseño distinto para ocasiones informales."
+  },
+  "93": {
+    "original": "Brown Leather Belt Watch",
+    "titulo": "Reloj con correa de cuero marrón",
+    "descripcion": "Reloj de diseño clásico con esfera elegante y correa de cuero genuino."
+  },
+  "94": {
+    "original": "Longines Master Collection",
+    "titulo": "Longines Master Collection",
+    "descripcion": "Reloj elegante de diseño atemporal que se distingue por su precisión y calidad de fabricación."
+  },
+  "95": {
+    "original": "Rolex Cellini Date Black Dial",
+    "titulo": "Rolex Cellini Date con esfera negra",
+    "descripcion": "Reloj clásico con esfera negra e indicador de fecha."
+  },
+  "96": {
+    "original": "Rolex Cellini Moonphase",
+    "titulo": "Rolex Cellini Moonphase",
+    "descripcion": "Reloj de diseño refinado con indicador de fases lunares."
+  },
+  "97": {
+    "original": "Rolex Datejust",
+    "titulo": "Rolex Datejust",
+    "descripcion": "Reloj clásico con ventana de fecha, reconocido por su diseño atemporal y su fiabilidad."
+  },
+  "98": {
+    "original": "Rolex Submariner Watch",
+    "titulo": "Rolex Submariner",
+    "descripcion": "Reloj de buceo de larga trayectoria, conocido por su resistencia al agua y su durabilidad."
+  },
+  "99": {
+    "original": "Amazon Echo Plus",
+    "titulo": "Amazon Echo Plus",
+    "descripcion": "Parlante inteligente con control por voz mediante Alexa, sonido de alta calidad y función de centro de control para dispositivos del hogar."
+  },
+  "100": {
+    "original": "Apple Airpods",
+    "titulo": "Apple AirPods",
+    "descripcion": "Audífonos inalámbricos con emparejamiento sencillo, sonido de alta calidad e integración con Siri."
+  },
+  "101": {
+    "original": "Apple AirPods Max Silver",
+    "titulo": "Apple AirPods Max plateados",
+    "descripcion": "Audífonos de diadema con sonido de alta fidelidad, ecualización adaptativa y cancelación activa de ruido."
+  },
+  "102": {
+    "original": "Apple Airpower Wireless Charger",
+    "titulo": "Cargador inalámbrico Apple AirPower",
+    "descripcion": "Base de carga inalámbrica para dispositivos Apple compatibles. Basta con colocarlos sobre la base."
+  },
+  "103": {
+    "original": "Apple HomePod Mini Cosmic Grey",
+    "titulo": "Apple HomePod mini en gris cósmico",
+    "descripcion": "Parlante inteligente compacto con sonido de alta calidad e integración con el ecosistema de Apple."
+  },
+  "104": {
+    "original": "Apple iPhone Charger",
+    "titulo": "Cargador Apple para iPhone",
+    "descripcion": "Cargador diseñado para recargar el iPhone de manera rápida y eficiente."
+  },
+  "105": {
+    "original": "Apple MagSafe Battery Pack",
+    "titulo": "Batería portátil Apple MagSafe",
+    "descripcion": "Batería portátil que se fija magnéticamente a un iPhone compatible con MagSafe para ampliar su autonomía."
+  },
+  "106": {
+    "original": "Apple Watch Series 4 Gold",
+    "titulo": "Apple Watch Series 4 dorado",
+    "descripcion": "Reloj inteligente con pantalla Retina, medición de la frecuencia cardíaca y seguimiento de la actividad física."
+  },
+  "107": {
+    "original": "Beats Flex Wireless Earphones",
+    "titulo": "Audífonos inalámbricos Beats Flex",
+    "descripcion": "Audífonos cómodos con auriculares magnéticos y hasta 12 horas de autonomía."
+  },
+  "108": {
+    "original": "iPhone 12 Silicone Case with MagSafe Plum",
+    "titulo": "Funda de silicona con MagSafe para iPhone 12, color ciruela",
+    "descripcion": "Funda protectora para el iPhone 12 que permite acoplar accesorios mediante MagSafe."
+  },
+  "109": {
+    "original": "Monopod",
+    "titulo": "Monopié para cámara",
+    "descripcion": "Soporte ajustable que aporta estabilidad al tomar autorretratos, fotos de grupo y videos."
+  },
+  "110": {
+    "original": "Selfie Lamp with iPhone",
+    "titulo": "Luz para selfis compatible con iPhone",
+    "descripcion": "Luz LED portátil y ajustable que se fija al iPhone para mejorar la iluminación en fotos y videollamadas."
+  },
+  "111": {
+    "original": "Selfie Stick Monopod",
+    "titulo": "Palo para selfis tipo monopié",
+    "descripcion": "Soporte extensible y plegable para tomar autorretratos o fotos de grupo. Compatible con teléfonos inteligentes y cámaras."
+  },
+  "112": {
+    "original": "TV Studio Camera Pedestal",
+    "titulo": "Pedestal para cámara de estudio de televisión",
+    "descripcion": "Soporte profesional que facilita movimientos suaves y precisos de la cámara durante producciones y transmisiones de estudio."
+  },
+  "113": {
+    "original": "Generic Motorcycle",
+    "titulo": "Motocicleta genérica",
+    "descripcion": "Motocicleta versátil de diseño equilibrado para una conducción cómoda y eficiente."
+  },
+  "114": {
+    "original": "Kawasaki Z800",
+    "titulo": "Kawasaki Z800",
+    "descripcion": "Motocicleta deportiva potente y ágil, con un diseño llamativo y prestaciones avanzadas."
+  },
+  "115": {
+    "original": "MotoGP CI.H1",
+    "titulo": "MotoGP CI.H1",
+    "descripcion": "Motocicleta de alto rendimiento inspirada en la tecnología de competición de MotoGP, con ingeniería de precisión."
+  },
+  "116": {
+    "original": "Scooter Motorcycle",
+    "titulo": "Motocicleta tipo scooter",
+    "descripcion": "Vehículo práctico y de bajo consumo para trayectos urbanos. Su diseño de acceso bajo y sus controles sencillos facilitan las maniobras."
+  },
+  "117": {
+    "original": "Sportbike Motorcycle",
+    "titulo": "Motocicleta deportiva",
+    "descripcion": "Motocicleta de perfil aerodinámico diseñada para una conducción rápida y ágil."
+  },
+  "118": {
+    "original": "Attitude Super Leaves Hand Soap",
+    "titulo": "Jabón de manos Attitude Super Leaves",
+    "descripcion": "Jabón natural enriquecido con extractos de hojas que limpia e hidrata las manos y las deja suaves y frescas."
+  },
+  "119": {
+    "original": "Olay Ultra Moisture Shea Butter Body Wash",
+    "titulo": "Jabón líquido corporal Olay Ultra Moisture con manteca de karité",
+    "descripcion": "Jabón corporal que produce una espuma abundante e hidrata y nutre la piel con manteca de karité."
+  },
+  "120": {
+    "original": "Vaseline Men Body and Face Lotion",
+    "titulo": "Loción corporal y facial Vaseline Men",
+    "descripcion": "Loción de rápida absorción formulada para hidratar de forma duradera la piel del rostro y el cuerpo."
+  },
+  "121": {
+    "original": "iPhone 5s",
+    "titulo": "iPhone 5s",
+    "descripcion": "Teléfono clásico de diseño compacto con funciones que destacaron en su lanzamiento. Es un modelo antiguo de funcionamiento fiable."
+  },
+  "122": {
+    "original": "iPhone 6",
+    "titulo": "iPhone 6",
+    "descripcion": "Teléfono que incorporó una pantalla más grande, mejoras de rendimiento y cambios de diseño."
+  },
+  "123": {
+    "original": "iPhone 13 Pro",
+    "titulo": "iPhone 13 Pro",
+    "descripcion": "Teléfono con un sistema de cámaras avanzado, un chip de alto rendimiento y una pantalla de alta calidad."
+  },
+  "124": {
+    "original": "iPhone X",
+    "titulo": "iPhone X",
+    "descripcion": "Teléfono de gama alta con pantalla OLED sin bordes, reconocimiento facial Face ID y alto rendimiento."
+  },
+  "125": {
+    "original": "Oppo A57",
+    "titulo": "Oppo A57",
+    "descripcion": "Teléfono de gama media de diseño elegante que equilibra el rendimiento y el precio."
+  },
+  "126": {
+    "original": "Oppo F19 Pro Plus",
+    "titulo": "Oppo F19 Pro Plus",
+    "descripcion": "Teléfono de alto rendimiento con funciones avanzadas de fotografía."
+  },
+  "127": {
+    "original": "Oppo K1",
+    "titulo": "Oppo K1",
+    "descripcion": "Serie de teléfonos con distintas prestaciones y especificaciones, de diseño elegante y rendimiento fiable."
+  },
+  "128": {
+    "original": "Realme C35",
+    "titulo": "Realme C35",
+    "descripcion": "Teléfono económico con funciones esenciales, rendimiento fiable y manejo sencillo para el uso diario."
+  },
+  "129": {
+    "original": "Realme X",
+    "titulo": "Realme X",
+    "descripcion": "Teléfono de gama media con diseño elegante, buena pantalla y un equilibrio entre rendimiento y funciones de cámara."
+  },
+  "130": {
+    "original": "Realme XT",
+    "titulo": "Realme XT",
+    "descripcion": "Celular con sensores de cámara avanzados para tomar fotos y grabar videos de alta calidad. Está pensado para quienes disfrutan de la fotografía."
+  },
+  "131": {
+    "original": "Samsung Galaxy S7",
+    "titulo": "Samsung Galaxy S7",
+    "descripcion": "Celular de gama alta con diseño elegante, pantalla de alta resolución, cámara potente y buen rendimiento."
+  },
+  "132": {
+    "original": "Samsung Galaxy S8",
+    "titulo": "Samsung Galaxy S8",
+    "descripcion": "Celular de gama alta con pantalla Infinity Display, funciones avanzadas de cámara y tecnología de última generación."
+  },
+  "133": {
+    "original": "Samsung Galaxy S10",
+    "titulo": "Samsung Galaxy S10",
+    "descripcion": "Celular de gama alta con pantalla Dynamic AMOLED, sistema de cámaras versátil y alto rendimiento."
+  },
+  "134": {
+    "original": "Vivo S1",
+    "titulo": "Vivo S1",
+    "descripcion": "Celular de gama media que combina diseño y rendimiento. Cuenta con una pantalla de colores vivos, un buen sistema de cámaras y un funcionamiento confiable."
+  },
+  "135": {
+    "original": "Vivo V9",
+    "titulo": "Vivo V9",
+    "descripcion": "Celular de diseño moderno con pantalla de muesca y cámara doble. Está diseñado para tomar selfis de alta calidad."
+  },
+  "136": {
+    "original": "Vivo X21",
+    "titulo": "Vivo X21",
+    "descripcion": "Celular de gama alta con lector de huellas integrado en la pantalla, alta resolución y funciones avanzadas de cámara."
+  },
+  "137": {
+    "original": "American Football",
+    "titulo": "Balón de fútbol americano",
+    "descripcion": "Balón clásico de fútbol americano diseñado para lanzar y atrapar durante el juego."
+  },
+  "138": {
+    "original": "Baseball Ball",
+    "titulo": "Pelota de béisbol",
+    "descripcion": "Pelota de béisbol con cubierta de cuero resistente, diseñada para lanzar, batear y atrapar en el campo."
+  },
+  "139": {
+    "original": "Baseball Glove",
+    "titulo": "Guante de béisbol",
+    "descripcion": "Guante protector para atrapar la pelota con comodidad y control durante el juego."
+  },
+  "140": {
+    "original": "Basketball",
+    "titulo": "Balón de baloncesto",
+    "descripcion": "Balón para driblar, lanzar y pasar. Se puede usar en canchas cubiertas y al aire libre."
+  },
+  "141": {
+    "original": "Basketball Rim",
+    "titulo": "Aro de baloncesto con red",
+    "descripcion": "Aro resistente con red para montar en un tablero de baloncesto y practicar tiros a canasta."
+  },
+  "142": {
+    "original": "Cricket Ball",
+    "titulo": "Pelota de críquet",
+    "descripcion": "Pelota de cuero duro para lanzar y batear. Su dureza y su costura influyen en la dinámica del juego."
+  },
+  "143": {
+    "original": "Cricket Bat",
+    "titulo": "Bate de críquet",
+    "descripcion": "Bate de madera para golpear la pelota de críquet. Está disponible en varios tamaños y diseños."
+  },
+  "144": {
+    "original": "Cricket Helmet",
+    "titulo": "Casco de críquet",
+    "descripcion": "Casco para bateadores y guardianes del wicket. Protege frente a lanzamientos rápidos y pelotas que rebotan hacia el jugador."
+  },
+  "145": {
+    "original": "Cricket Wicket",
+    "titulo": "Wicket de críquet",
+    "descripcion": "Juego de tres postes y dos travesaños que forman el wicket. El bateador lo protege mientras intenta anotar carreras."
+  },
+  "146": {
+    "original": "Feather Shuttlecock",
+    "titulo": "Volante de bádminton con plumas",
+    "descripcion": "Volante de plumas naturales diseñado para mantener la estabilidad y la precisión durante el juego a alta velocidad."
+  },
+  "147": {
+    "original": "Football",
+    "titulo": "Balón de fútbol",
+    "descripcion": "Balón de fútbol estándar diseñado para patear y realizar pases durante el juego."
+  },
+  "148": {
+    "original": "Golf Ball",
+    "titulo": "Pelota de golf",
+    "descripcion": "Pelota pequeña con hoyuelos que favorecen la sustentación y el alcance al golpearla con un palo de golf."
+  },
+  "149": {
+    "original": "Iron Golf",
+    "titulo": "Palo de golf tipo hierro",
+    "descripcion": "Palo con cabeza de metal sólido para golpes de aproximación, golpes cortos y otras técnicas de golf."
+  },
+  "150": {
+    "original": "Metal Baseball Bat",
+    "titulo": "Bate de béisbol metálico",
+    "descripcion": "Bate liviano y resistente, fabricado con aleaciones metálicas para partidos y prácticas de bateo."
+  },
+  "151": {
+    "original": "Tennis Ball",
+    "titulo": "Pelota de tenis",
+    "descripcion": "Pelota estándar diseñada para rebotar y golpear con la raqueta durante partidos y entrenamientos."
+  },
+  "152": {
+    "original": "Tennis Racket",
+    "titulo": "Raqueta de tenis",
+    "descripcion": "Raqueta con marco encordado y empuñadura, diseñada para golpear la pelota de tenis."
+  },
+  "153": {
+    "original": "Volleyball",
+    "titulo": "Balón de voleibol",
+    "descripcion": "Balón estándar para pases, colocaciones y remates sobre la red durante partidos de voleibol."
+  },
+  "154": {
+    "original": "Black Sun Glasses",
+    "titulo": "Gafas de sol negras",
+    "descripcion": "Gafas con montura negra y lentes tintados que ofrecen protección UV."
+  },
+  "155": {
+    "original": "Classic Sun Glasses",
+    "titulo": "Gafas de sol clásicas",
+    "descripcion": "Gafas de diseño clásico con montura de tono neutro y lentes con protección UV, adecuadas para distintas ocasiones."
+  },
+  "156": {
+    "original": "Green and Black Glasses",
+    "titulo": "Gafas verdes y negras",
+    "descripcion": "Gafas que combinan verde y negro en un diseño llamativo."
+  },
+  "157": {
+    "original": "Party Glasses",
+    "titulo": "Gafas para fiestas",
+    "descripcion": "Gafas con formas originales o monturas de colores para complementar un atuendo de fiesta."
+  },
+  "158": {
+    "original": "Sunglasses",
+    "titulo": "Gafas de sol",
+    "descripcion": "Gafas de diseño sencillo y clásico con protección UV."
+  },
+  "159": {
+    "original": "iPad Mini 2021 Starlight",
+    "titulo": "iPad Mini 2021 Starlight",
+    "descripcion": "Tableta compacta de Apple en acabado Starlight, con pantalla Retina, chip de la serie A y diseño elegante."
+  },
+  "160": {
+    "original": "Samsung Galaxy Tab S8 Plus Grey",
+    "titulo": "Samsung Galaxy Tab S8 Plus gris",
+    "descripcion": "Tableta Android de alto rendimiento con pantalla AMOLED amplia, procesador potente y compatibilidad con S Pen. Sirve para trabajar y entretenerse."
+  },
+  "161": {
+    "original": "Samsung Galaxy Tab White",
+    "titulo": "Samsung Galaxy Tab blanca",
+    "descripcion": "Tableta Android blanca con pantalla de colores vivos y batería de larga duración, pensada para distintas tareas."
+  },
+  "162": {
+    "original": "Blue Frock",
+    "titulo": "Vestido azul",
+    "descripcion": "Vestido de color azul vivo y diseño cómodo para distintas ocasiones."
+  },
+  "163": {
+    "original": "Girl Summer Dress",
+    "titulo": "Vestido de verano para niña",
+    "descripcion": "Vestido fresco de tela liviana con estampados divertidos, diseñado para el clima cálido."
+  },
+  "164": {
+    "original": "Gray Dress",
+    "titulo": "Vestido gris",
+    "descripcion": "Vestido de tono gris neutro que se adapta tanto a conjuntos informales como a ocasiones más elegantes."
+  },
+  "165": {
+    "original": "Short Frock",
+    "titulo": "Vestido corto",
+    "descripcion": "Vestido corto de diseño cómodo y moderno, apropiado para salidas informales y ocasiones especiales."
+  },
+  "166": {
+    "original": "Tartan Dress",
+    "titulo": "Vestido de cuadros escoceses",
+    "descripcion": "Vestido con estampado clásico de cuadros escoceses, pensado para otoño e invierno."
+  },
+  "167": {
+    "original": "300 Touring",
+    "titulo": "300 Touring",
+    "descripcion": "Sedán elegante y cómodo, conocido por sus acabados de lujo y su conducción suave."
+  },
+  "168": {
+    "original": "Charger SXT RWD",
+    "titulo": "Charger SXT RWD",
+    "descripcion": "Sedán deportivo y potente con tracción trasera que combina rendimiento y practicidad."
+  },
+  "169": {
+    "original": "Dodge Hornet GT Plus",
+    "titulo": "Dodge Hornet GT Plus",
+    "descripcion": "Vehículo compacto de carrocería hatchback, ágil para conducir en la ciudad y con un estilo deportivo."
+  },
+  "170": {
+    "original": "Durango SXT RWD",
+    "titulo": "Durango SXT RWD",
+    "descripcion": "SUV espaciosa y versátil con buen rendimiento y características pensadas para la familia."
+  },
+  "171": {
+    "original": "Pacifica Touring",
+    "titulo": "Pacifica Touring",
+    "descripcion": "Miniván bien equipada que ofrece comodidad y practicidad para viajes familiares."
+  },
+  "172": {
+    "original": "Blue Women's Handbag",
+    "titulo": "Bolso azul para mujer",
+    "descripcion": "Bolso amplio de color azul vivo con varios compartimentos, pensado para el uso diario."
+  },
+  "173": {
+    "original": "Heshe Women's Leather Bag",
+    "titulo": "Bolso de cuero Heshe para mujer",
+    "descripcion": "Bolso Heshe de cuero de alta calidad, con diseño clásico y confección resistente."
+  },
+  "174": {
+    "original": "Prada Women Bag",
+    "titulo": "Bolso Prada para mujer",
+    "descripcion": "Bolso de diseñador con el logotipo de Prada y acabados elaborados con precisión."
+  },
+  "175": {
+    "original": "White Faux Leather Backpack",
+    "titulo": "Morral blanco de cuero sintético",
+    "descripcion": "Morral blanco para mujer con diseño práctico y amplio espacio de almacenamiento para las actividades del día a día."
+  },
+  "176": {
+    "original": "Women Handbag Black",
+    "titulo": "Bolso negro para mujer",
+    "descripcion": "Bolso negro clásico, versátil y funcional que combina con distintos atuendos."
+  },
+  "177": {
+    "original": "Black Women's Gown",
+    "titulo": "Vestido de noche negro para mujer",
+    "descripcion": "Vestido de noche negro de diseño elegante, adecuado para eventos formales y ocasiones especiales."
+  },
+  "178": {
+    "original": "Corset Leather With Skirt",
+    "titulo": "Corsé de cuero con falda",
+    "descripcion": "Conjunto llamativo de corsé de cuero y falda a juego."
+  },
+  "179": {
+    "original": "Corset With Black Skirt",
+    "titulo": "Corsé con falda negra",
+    "descripcion": "Conjunto versátil que combina un corsé de diseño moderno con una falda negra clásica."
+  },
+  "180": {
+    "original": "Dress Pea",
+    "titulo": "Vestido de lunares",
+    "descripcion": "Vestido cómodo con estampado de lunares, apropiado para salidas informales y para el día a día."
+  },
+  "181": {
+    "original": "Marni Red & Black Suit",
+    "titulo": "Traje rojo y negro de Marni",
+    "descripcion": "Traje Marni de diseño moderno que combina tonos rojos y negros en un conjunto llamativo."
+  },
+  "182": {
+    "original": "Green Crystal Earring",
+    "titulo": "Arete de cristal verde",
+    "descripcion": "Arete de diseño clásico con un cristal verde de color intenso, adecuado para eventos formales y ocasiones especiales."
+  },
+  "183": {
+    "original": "Green Oval Earring",
+    "titulo": "Arete ovalado verde",
+    "descripcion": "Arete verde de forma ovalada y diseño contemporáneo, adecuado tanto para ocasiones informales como elegantes."
+  },
+  "184": {
+    "original": "Tropical Earring",
+    "titulo": "Arete tropical",
+    "descripcion": "Arete de colores vivos y diseño inspirado en motivos tropicales."
+  },
+  "185": {
+    "original": "Black & Brown Slipper",
+    "titulo": "Pantufla negra y café",
+    "descripcion": "Pantufla cómoda en tonos negro y café para uso informal."
+  },
+  "186": {
+    "original": "Calvin Klein Heel Shoes",
+    "titulo": "Zapatos de tacón Calvin Klein",
+    "descripcion": "Zapatos de tacón de diseño clásico, hechos con materiales de alta calidad para ocasiones formales."
+  },
+  "187": {
+    "original": "Golden Shoes Woman",
+    "titulo": "Zapatos dorados para mujer",
+    "descripcion": "Zapatos de color dorado y diseño elegante para ocasiones especiales."
+  },
+  "188": {
+    "original": "Pampi Shoes",
+    "titulo": "Zapatos Pampi",
+    "descripcion": "Zapatos cómodos y versátiles, adecuados para el uso diario y las ocasiones informales."
+  },
+  "189": {
+    "original": "Red Shoes",
+    "titulo": "Zapatos rojos",
+    "descripcion": "Zapatos de color rojo vivo para fiestas o salidas informales."
+  },
+  "190": {
+    "original": "IWC Ingenieur Automatic Steel",
+    "titulo": "IWC Ingenieur Automatic Steel",
+    "descripcion": "Reloj resistente con caja de acero inoxidable y movimiento automático, diseñado para combinar precisión y elegancia."
+  },
+  "191": {
+    "original": "Rolex Cellini Moonphase",
+    "titulo": "Rolex Cellini Moonphase",
+    "descripcion": "Reloj Rolex con indicador de fases lunares que refleja la elegancia y el detalle de la relojería de la marca."
+  },
+  "192": {
+    "original": "Rolex Datejust Women",
+    "titulo": "Rolex Datejust para mujer",
+    "descripcion": "Reloj de diseño clásico para mujer con indicador de fecha."
+  },
+  "193": {
+    "original": "Watch Gold for Women",
+    "titulo": "Reloj dorado para mujer",
+    "descripcion": "Reloj de diseño elegante con caja chapada en oro."
+  },
+  "194": {
+    "original": "Women's Wrist Watch",
+    "titulo": "Reloj de pulsera para mujer",
+    "descripcion": "Reloj versátil para el uso diario, con correa cómoda y diseño sencillo y elegante."
+  }
+}

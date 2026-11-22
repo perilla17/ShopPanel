@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { crearPedido } from '../services/orderService.js';
 import { getProductById } from '../services/productService.js';
+import { formatearPrecio } from '../utils/formatos.js';
+
+const calificacion = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 2 });
 
 // Ruta dinámica /productos/:id
 export default function DetalleProducto() {
@@ -88,9 +91,9 @@ export default function DetalleProducto() {
             {product.category}
           </p>
           <p>{product.description}</p>
-          <p className="fs-3 fw-bold">${product.price.toFixed(2)}</p>
-          <p className="mb-1">Calificación: {product.rating}</p>
-          <p>Stock disponible: {product.stock}</p>
+          <p className="fs-3 fw-bold">{formatearPrecio(product.price)}</p>
+          <p className="mb-1">Calificación: {calificacion.format(product.rating)}</p>
+          <p>Unidades disponibles: {product.stock}</p>
           <FormularioPedido key={product.id} producto={product} />
         </div>
       </div>

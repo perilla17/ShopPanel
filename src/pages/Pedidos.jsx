@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
 import { cambiarEstadoPedido, ESTADOS_PEDIDO, obtenerPedidos } from '../services/orderService.js';
+import { nombreProductoEnEspanol } from '../services/productLocalization.js';
+import { formatearPrecio } from '../utils/formatos.js';
 
-const pesos = new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', maximumFractionDigits: 0 });
-const dolares = new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'USD', currencyDisplay: 'code' });
 const fecha = new Intl.DateTimeFormat('es-CO', { dateStyle: 'medium', timeStyle: 'short' });
 
 export default function Pedidos() {
@@ -98,7 +98,8 @@ export default function Pedidos() {
                     </thead>
                     <tbody>
                       {visibles.map((pedido) => {
-                        const moneda = pedido.moneda === 'USD' ? dolares : pesos;
+                        const moneda = pedido.moneda === 'USD' ? 'USD' : 'COP';
+                        const nombre = nombreProductoEnEspanol(pedido.productoId, pedido.producto);
                         const idCorto = pedido.id.slice(0, 8);
                         return (
                           <tr key={pedido.id}>
@@ -114,15 +115,15 @@ export default function Pedidos() {
                                 )}
                                 <div>
                                   {pedido.productoId
-                                    ? <Link to={`/productos/${pedido.productoId}`}>{pedido.producto}</Link>
-                                    : pedido.producto}
+                                    ? <Link to={`/productos/${pedido.productoId}`}>{nombre}</Link>
+                                    : nombre}
                                   {Number.isFinite(pedido.precioUnitario) && (
-                                    <div className="small text-secondary text-nowrap">{moneda.format(pedido.precioUnitario)} por unidad</div>
+                                    <div className="small text-secondary text-nowrap">{formatearPrecio(pedido.precioUnitario, moneda)} por unidad</div>
                                   )}
                                 </div>
                               </div>
                             </td>
-                            <td className="text-nowrap">{moneda.format(pedido.total)}</td>
+                            <td className="text-nowrap">{formatearPrecio(pedido.total, moneda)}</td>
                             <td className="small text-secondary">{fecha.format(new Date(pedido.creadoEn))}</td>
                             <td className="pe-4">
                               <select
